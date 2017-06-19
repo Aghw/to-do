@@ -75,41 +75,6 @@ function onWindowLoad() {
    form.onsubmit = taskListBuilder;
 }
 
+
+//On browser window load
 window.onload = onWindowLoad;
-//
-// window.onload = function() {
-//   // // console.log(document.getElementById('see-me'));
-//   // // console.log(document.getElementsByClassName('great-house'));
-//   //
-//   // var paras = document.querySelectorAll('p');
-//   // // for (var i = 0; i < paras.length; i++ ) {
-//   // //   console.log(paras[i]);
-//   // // }
-//   //
-//   // // var h1 = document.getElementsByTagName("h1");
-//   // // var h1 = document.querySelectorAll("h1");
-//   // // h1[0].classList.add("bright");
-//   // var h1 = document.querySelector("h1");
-//   // h1.classList.add("bright");
-//   //
-//   //
-//   // var div = document.createElement("div");
-//   // var p = document.createElement("p");
-//   // p.innerHTML = "Easier to read text!";
-//   // var text = document.createTextNode("This is text");
-//   // p.appendChild(text);
-//   // div.appendChild(p);
-//   //
-//   // var parent = document.getElementById("parent");
-//   // parent.appendChild(div);
-//
-//   // var frm = document.getElementById("list-tasks");
-//   // frm.removeChild("li") ;
-//
-//
-//    drawList();
-//
-//    //Select the form, and attach houseBuilder as onSubmit handler
-//    var form = document.querySelector("form");
-//    form.onsubmit = taskListBuilder;
-// }
